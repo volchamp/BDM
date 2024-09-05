@@ -1,0 +1,125 @@
+.gx_mdm_login_main {
+  position: relative;
+  min-width: 79.125rem;
+  width: 100%;
+  height: 100%;
+  /*min-width: 1266px;
+  min-height: 620px;*/
+  background: url(../img/gx_zsjglpt_login_left22.PNG) repeat-y left top;
+  background-size: contain;
+}
+
+.gx_mdm_login_bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  /*width: 24.375rem;*/
+  height: 13rem;
+  min-width: 1266px;
+  background: url(../img/gx_zsjglpt_login_bottom33.PNG) no-repeat left top;
+  background-size: cover;
+}
+.gx_mdm_login_center {
+  position: absolute;
+  left: 12%;
+  top: 17%;
+  display: block;
+  width: 47.5rem;
+  height: 35rem;
+  background: url(../img/gx_zsjglpt_login_center12.png) no-repeat left top;
+  background-size: contain;
+}
+.gx_mdm_login_contents {
+  position: absolute;
+  right: 19%;
+  top: 22%;
+  display: block;
+  width: 22rem;
+  height: 32rem;
+  padding: 0rem 4.5rem;
+  background: white;
+  border-radius: 0.3125rem;
+  z-index: 999;
+  zoom: 1;
+}
+.gx_mdm_login_contents form{
+	/*width: 26.2rem;*/
+	width: 22.2rem;
+	height: 20.45rem;
+	/*width: 307px;*/
+	margin: 0 auto;
+}
+.gx_mdm_login_contents h3 {
+	width: 100%;
+	height: 2.1rem;
+	margin: 3.375rem 0;
+  font-size: 2.75rem;
+  color: #027ad1;
+  text-align: center;
+}
+.gx_login_name p,
+.gx_login_password p {
+  font-size: 1.125rem;
+  height: 2.1rem;
+  margin-bottom: 0.75rem;
+}
+.gx_login_name input,
+.gx_login_password input {
+  padding-left: 0.625rem;
+  width: 21.375rem;
+  height: 3.125rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.3125rem;
+  font-size: 1.17rem;
+  margin-bottom: 0px;
+}
+.gx_login_password {
+  margin-top: 0.75rem;
+}
+.gx_login_btn {
+  margin-top: 1.5rem;
+}
+.gx_login_btn input {
+  width: 22rem;
+  height: 3.125rem;
+  background: #1696f4;
+  color: white;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+.gx_login_pwdgs {
+  margin-top: 0.625rem;
+  height: 2.1rem;
+}
+.gx_login_pwdgs input.gx_btngg {
+  width: 1.375rem;
+  height: 1.375rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  border: 0.0625rem solid #b0b0b0;
+  border-radius: 0.3125rem;
+  background: white;
+}
+.gx_login_pwdgs span {
+  color: #b0b0b0;
+}
+.gx_login_pwdgs a {
+  float: right;
+  color: #0179d0;
+  cursor: pointer;
+}
+@media only screen and (min-width:1500px ) {
+	.gx_mdm_login_bottom {
+	  height: 12.7rem;
+	}
+}
+
+
+/*2018-4-23*/
+.gx_mdm_login_center img{
+	display: none;
+}

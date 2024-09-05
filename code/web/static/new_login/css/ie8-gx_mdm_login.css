@@ -1,0 +1,124 @@
+html{
+	background-color:#4c5ee8 ;
+}
+#messageBox{
+	margin-top:-7%;
+}
+.gx_top_hied{
+	width: 100%;
+	height: 13%;
+}
+.gx_mdn_ie8{
+		background: url(../img/gx_zsjglpt_login_left22.PNG) repeat-y left top!important;
+}
+.gx_mdm_login_main {
+  position: relative;
+  width: 80%;
+  height: 68%;
+  margin:0 auto;
+  padding: 0px;
+  /*min-width: 1266px;
+  min-height: 620px;*/
+  background: url(./img/gx_zsjglpt_login_left1122.PNG) repeat-y left top;
+}
+
+.gx_mdm_login_bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  /*width: 24.375rem;*/
+  height: 208px;
+  min-width: 1266px;
+  background: url(../img/gx_zsjglpt_login_bottom33.PNG) no-repeat left top;
+}
+.gx_mdm_login_center {
+	top:0px;
+	left: 5%;
+  display: block;
+  /*width: 420px;*/
+  width: 38.5%;
+  background: url(../img/gx_zsjglpt_login_center1234.png) no-repeat left top;
+}
+.gx_mdm_login_center img{
+	display: block;
+	width: 100%;
+}
+.gx_mdm_login_contents {
+  position: absolute;
+  right: 10%;
+  top: 12%;
+  display: block;
+  /*width: 22rem;*/
+  width: 22%;
+  height: 88%;
+  /*height: 32rem;*/
+  padding: 0 5%;
+  background: white;
+  z-index: 999;
+  zoom: 1;
+}
+.gx_mdm_login_contents h3 {
+	min-width: 228px;
+	height: 24px;
+	margin: 14% 0;
+  font-size: 32px;
+  color: #027ad1;
+  text-align: center;
+}
+.gx_mdm_login_contents form{
+	/*width: 26.2rem;*/
+	width: 99%;
+	height: 60%;
+	margin: 0 auto;
+}
+.gx_login_name p,
+.gx_login_password p {
+  font-size: 13px;
+  height: 24px;
+  margin-bottom: 6px;
+}
+.gx_login_name input,
+.gx_login_password input {
+  padding-left: 6px;
+  width: 97%;
+  height:30px;
+  border: 1px solid #dcdcdc;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.gx_login_password {
+  margin-top: 12px;
+}
+.gx_login_btn {
+  margin-top:24px;
+}
+.gx_login_btn input {
+  width: 100%;
+  height:34px;
+  background: #1696f4;
+  color: white;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+.gx_login_pwdgs {
+  margin-top: 10px;
+  height:33px;
+}
+.gx_login_pwdgs input.gx_btngg {
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+  margin-right: 6px;
+  border: 1px solid #b0b0b0;
+  background: white;
+}
+.gx_login_pwdgs span {
+  color: #b0b0b0;
+}
+.gx_login_pwdgs a {
+  float: right;
+  color: #0179d0;
+}

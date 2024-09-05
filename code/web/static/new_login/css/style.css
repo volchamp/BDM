@@ -1,0 +1,44 @@
+body,html {height: 100%;}
+::-webkit-scrollbar {
+            width: 2px;
+        } /* 这是针对缺省样式 (必须的) */
+        ::-webkit-scrollbar-track {
+            background-color: #caced2;
+        } /* 滚动条的滑轨背景颜色 */
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+        } /* 滑块颜色 */
+
+        ::-webkit-scrollbar-button {
+            height: 0;
+            background-color: #ebebeb;
+        } /* 滑轨两头的监听按钮颜色 */
+
+        ::-webkit-scrollbar-corner {
+            background-color: #caced2;
+        } /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0;font-family:"microsoft yahei" ;}
+body { font-size:16px; color:#000; font-family:Verdana, Microsoft YaHei, Simsun; background:#fff; line-height:24px; }
+fieldset, img { border:0; }
+ol, ul,li { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }
+textarea { resize:none; } //禁用了文本的拖拉，尤其在谷歌下
+p{ text-align:justify; text-justify:distribute;} //为了使文本段落左右两边对齐
+li{list-style: none;}
+input,textarea{overflow-y: hidden;}
+a { color: #000; text-decoration:none; }
+/*a:hover { color: #f60; text-decoration:none; }*/
+.phcolor{color: #E3E3E3;}
+/*清楚浮动*/
+　.clearfix:after{
+　　　centent:"";
+　　　height:0;
+　　　line-height:0;
+　　　display:block;
+　　　visibility:hidden;
+　　　clear:both;
+　　　}
+.clearfix{/*为了兼容IE*/zoom:1;}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uddi__address__list>
+	<uddi__address id="default">
+		<name>localserver</name>
+		<logicName>default</logicName>
+		<type>remote</type>
+		<description>uddi-config.xml at " bps client"</description>
+		<uddiHost>127.0.0.1</uddiHost>
+		<!--<uddiHost>120.79.33.200</uddiHost>-->
+		<uddiPort>8080</uddiPort>
+		<uddiWebContext>default</uddiWebContext>
+		<uddiUserID>bps</uddiUserID>
+		<uddiPassword>000000</uddiPassword>
+		<uddiAdminPort>6200</uddiAdminPort>
+	</uddi__address>
+</uddi__address__list>

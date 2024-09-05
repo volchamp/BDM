@@ -1,0 +1,82 @@
+package com.kmvc.jeesite.modules.common;
+
+public class Constrant
+{
+    public static final int WS_STATUS_ZERO = 0;
+    public static final int WS_STATUS_ONE = 1;
+    public static final int THREAD_POOL_SIZE = 40;
+    public static final int RecordType_push = 1;
+    public static final int SEND_NOT = 0;
+    public static final int SEND_SUCCESS = 1;
+    public static final int SEND_FAIL = 2;
+    public static final int WS_CONNECT_TIMEOUT = 45;
+    public static final int WS_RECEIVE_TIMEOUT = 45;
+    public static final int WS_ONE_TIMEOUT = 1000;
+    public static final String WS_MDM_NAME = "MDM\u4e3b\u6570\u636e\u7ba1\u7406\u5e73\u53f0";
+    public static final String WS_MDM_CODE = "MDM";
+    public static final int WS_PAGE_SIZE = 1000;
+    public static final int WS_FIRST_PAGE = 1;
+    public static final String WS_FLAG_SUCCEED = "0";
+    public static final String WS_FLAG_MSGID_NOT_NULL = "1";
+    public static final String WS_FLAG_PAGE_SIZE_NOT_RIGHT = "2";
+    public static final String WS_FLAG_TOTAL_PAGE_NOT_RIGHT = "3";
+    public static final String WS_FLAG_CURRENT_PAGE_NOT_RIGHT = "4";
+    public static final String WS_FLAG_CODE_SET_NO_NOT_RIGHT = "5";
+    public static final String WS_FLAG_CODE_SET_NAME_NOT_RIGHT = "6";
+    public static final String WS_FLAG_REGION_CODE_NOT_RIGHT = "7";
+    public static final String WS_FLAG_REGION_NAME_NOT_RIGHT = "8";
+    public static final String WS_FLAG_SOUR_SYS_CODE_NOT_RIGHT = "9";
+    public static final String WS_FLAG_SOUR_SYS_NAME_NOT_RIGHT = "10";
+    public static final String WS_FLAG_CODE_EN_COLL_NOT_RIGHT = "11";
+    public static final String WS_FLAG_PAGE_HANDLED = "12";
+    public static final String WS_FLAG_MDM = "MDM\u4e3b\u6570\u636e\u5e73\u53f0";
+    public static final String PENDING_PERMISSION_ADMIN = "businessdatamrg:pendingAudit:admin";
+    public static final String PENDING_PERMISSION_FIRST = "businessdatamrg:pendingAudit:first";
+    public static final String PENDING_PERMISSION_REVIEW = "businessdatamrg:pendingAudit:review";
+    public static final String SENDING_PERMISSION_ISSUED = "businessdatamrg:sendingAudit:issued";
+    public static final String VALIDATION_PERMISSION_CHECK = "datacheckingmrg:validationCodeSet:check";
+    public static final Integer PENDING_STATUS_SAVE;
+    public static final Integer PENDING_STATUS_FIRST;
+    public static final Integer PENDING_STATUS_REVIEW;
+    public static final Integer PENDING_STATUS_AGREE;
+    public static final Integer PENDING_STATUS_REFUSE;
+    public static final Integer TASK_STATUS_START;
+    public static final Integer TASK_STATUS_STOP;
+    public static final Integer TASK_TYPE_FIRST;
+    public static final Integer TASK_TYPE_REVIEW;
+    public static final Integer TASK_TYPE_ISSUED;
+    public static final Integer TASK_TYPE_CHECK;
+    public static final Integer TASK_TYPE_AGREE;
+    public static final Integer TASK_TYPE_REFUSE;
+    public static final Integer TASK_TYPE_RETURN;
+    public static final int OPERATION_ADD = 0;
+    public static final int OPERATION_UPDATE = 1;
+    public static final int OPERATION_DELETE = 2;
+    public static final String SYMBOL_UNDERLINE = "_";
+    public static final String SYMBOL_COMMA = ",";
+    public static final String SYMBOL_SPACING = " ";
+    public static final String PROCESS_DEF_STATUS_PUBLISHED = "published";
+    public static final int WORKITEM_STATE_WAITING_RECEIVE = 4;
+    public static final int WORKITEM_STATE_HANGUP = 8;
+    public static final int WORKITEM_STATE_RUNNING = 10;
+    public static final int WORKITEM_STATE_FINISHED = 12;
+    public static final int WORKITEM_STATE_TERMINATED = 13;
+    public static final String USERID_SUPER_ADMIN = "1";
+
+    static {
+        PENDING_STATUS_SAVE = 0;
+        PENDING_STATUS_FIRST = 1;
+        PENDING_STATUS_REVIEW = 2;
+        PENDING_STATUS_AGREE = 3;
+        PENDING_STATUS_REFUSE = 4;
+        TASK_STATUS_START = 0;
+        TASK_STATUS_STOP = 1;
+        TASK_TYPE_FIRST = 1;
+        TASK_TYPE_REVIEW = 2;
+        TASK_TYPE_ISSUED = 3;
+        TASK_TYPE_CHECK = 4;
+        TASK_TYPE_AGREE = 5;
+        TASK_TYPE_REFUSE = 6;
+        TASK_TYPE_RETURN = 7;
+    }
+}
